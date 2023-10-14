@@ -34,8 +34,7 @@ You can access a live demo of this Airbnb clone at [Demo Link](https://your-demo
 
 This project makes use of the following technologies:
 
-- Frontend: React, Redux, HTML, CSS, JavaScript
-- Backend: Node.js, Express.js, MongoDB
+- Frontend: HTML, CSS, JavaScript
 - Authentication: Passport.js
 - Payment Processing: Stripe
 - Real-time Messaging: WebSocket (or specify your choice)
