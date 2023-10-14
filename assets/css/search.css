@@ -1,0 +1,187 @@
+body {
+    color: #000;
+}
+
+header {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0.6rem;
+}
+
+header .inner {
+    max-width: 1296px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .logo path {
+    fill: var(--main)
+}
+
+header form {
+    max-width: 440px;
+    border-radius: 30px;
+    padding: 0.4rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 0 0 3px 1px rgba(0, 0, 0, 0.15);
+}
+
+header input:not(:first-child) {
+    width: 25%;
+}
+
+header form .btn {
+    border-radius: 50%;
+    padding: 0.5rem;
+    background-color: var(--main);
+}
+
+header .options {
+    display: flex;
+    align-items: center;
+}
+
+header .options .btn {
+    color: #000;
+}
+
+header .options .icon {
+    margin: 0 0.4rem;
+}
+
+header .profile-btn {
+    box-shadow: 0;
+    padding: 0.2rem 0.4rem;
+    border: 1px solid #f1f1f1;
+}
+
+header .profile-btn img {
+    margin-left: 0.9rem;
+    height: 35px;
+    width: 35px;
+}
+
+main {
+    padding: 0 1.8rem;
+}
+
+/* Filters */
+.filters {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    overflow-x: auto;
+    padding: 0.2rem;
+    margin-top: 1rem;
+}
+
+.filters .btn {
+    color: #000;
+    box-shadow: 0 0 2px 0 rgba(31, 41, 55, 0.25);
+    margin-right: 0.4rem;
+}
+
+/* content */
+.content {
+    display: flex;
+    width: 100%;
+    position: relative;
+    margin-top: 1rem;
+    border-top: 1px solid #f1f1f1;
+}
+
+.content .inner {
+    width: 100%;
+}
+
+.content .heading {
+    font-size: 0.9rem;
+    color: #ccc;
+    padding-bottom: 1rem;
+    padding-top: 1.5rem;
+}
+
+.content .card {
+    display: flex;
+    padding: 1rem 0;
+    border-top: 1px solid #f1f1f1;
+    position: relative;
+}
+
+.content .card .left {
+    max-width: 30%;
+}
+
+.content .card .left img {
+    border-radius: 10px;
+    width: 100%;
+}
+
+.content .distance {
+    position: absolute;
+    top: -8px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #000;
+    color: #fff;
+    border-radius: 10px;
+    padding: 0.2rem 0.4rem;
+    font-size: 0.6rem;
+    white-space: nowrap;
+}
+
+.content .card .card-right {
+    margin-left: 1rem;
+    height: 138px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.content .card .top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #374151;
+    font-size: 0.8rem;
+    max-height: 20px;
+}
+
+.content .card .top p {
+    margin-bottom: 0;
+}
+
+.content .card h2 {
+    font-size: 0.9rem;
+}
+
+.content .card .about {
+    font-size: 0.7rem;
+    color: #374151;
+    margin: auto 0;
+    max-width: 60%;
+}
+
+.content .card .bottom {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: auto;
+    font-size: 0.8rem;
+}
+
+.content .card .bottom p {
+    display: flex;
+    align-items: center;
+}
+
+.content .card .bottom img {
+    margin: 0 0.4rem;
+    margin-bottom: 0.2rem;
+}
